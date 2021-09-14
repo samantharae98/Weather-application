@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link:js> </link:js>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style></style>
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="current-weather-visual">
+        <img src="images/cloud-sun.svg" alt="cloud" /> <span> </span>
+
+        <div class="current-temp">
+          <span class="temperature" id="temperature"> </span>
+          <span class="units"> </span>°F
+        </div>
+      </div>
+
+      <div class="current-time" , id="date"><span></span></div>
+
+      <div class="current-city" , id="city"></div>
+
+      <div class="current-weather" , id="weather-type"></div>
+
+      <div class="current-humidity" , id="humidity-name">
+        Humidity:
+        <span class="humidity-value" id="humidity-value"> </span>%
+      </div>
+
+      <div class="current-windspeed" , id="windspeed">
+        Wind:
+        <span class="windspeed-value" id="windspeed-value"></span> m/hr
+      </div>
+
+      <form class="search-form" id="searching">
+        <div class="mb-3">
+          <input
+            type="search"
+            class="form-control"
+            autofocus="on"
+            autocomplete="off"
+            id="city-input"
+            placeholder="Enter city"
+          />
+        </div>
+
+        <button type="submit" class="searchbtn" id="input-search">
+          Search
+        </button>
+      </form>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

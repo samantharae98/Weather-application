@@ -1,0 +1,130 @@
+body {
+  font-family: "Sora";
+  border: solid;
+  border-color: #2810b0;
+  max-width: 550px;
+  padding: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.current-temp {
+  font-size: 120px;
+  display: block;
+  font-weight: 800;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  margin-top: 0px;
+  color: #2810b0;
+}
+
+.enter-city {
+  padding-top: -40px;
+  padding: 30px;
+}
+
+.current-time {
+  font-size: 30px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -55px;
+  padding-top: 20px;
+  color: #8175c2;
+  font-weight: 600;
+}
+
+.units {
+  line-height: 60px;
+  font-size: 20px;
+  color: #8175c2;
+  font-weight: 600;
+}
+.current-city {
+  margin-top: -40px;
+  display: block;
+  color: #2810b0;
+  line-height: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.current-weather {
+  padding-top: 10px;
+  font-size: 20px;
+  display: block;
+  color: #8175c2;
+  line-height: 20px;
+}
+
+.current-humidity {
+  padding-top: 10px;
+  font-size: 20px;
+  display: block;
+  color: #8175c2;
+  line-height: 20px;
+}
+.current-windspeed {
+  padding-top: 10px;
+  font-size: 20px;
+  display: block;
+  color: #8175c2;
+  line-height: 20px;
+}
+
+.current-rain-chance {
+  padding-top: 10px;
+  font-size: 20px;
+  display: block;
+  color: #8175c2;
+  line-height: 20px;
+}
+
+.current-weather-visual {
+  max-width: 170px;
+  line-height: 30px;
+  margin: 0, auto;
+}
+
+.current-day {
+  font-size: 40px;
+  display: block;
+  margin-left: 315px;
+  margin-top: -55px;
+
+  line-height: 40px;
+  color: #8175c2;
+  font-weight: 600;
+}
+
+.searchbtn {
+  background-color: #2810b0;
+  border: solid;
+  border-color: #2810b0;
+  color: white;
+  font-size: 22px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: block;
+  width: 225px;
+  font-weight: 500;
+  border-radius: 15px;
+  padding: 10px;
+  margin-left: 210px;
+}
+.searchbtn:hover {
+  color: #2810b0;
+  background-color: #ffff;
+  border: solid;
+  border-color: #2810b0;
+  transition-duration: 250ms;
+}
+
+.form-control {
+  margin-top: 30px;
+  max-width: 230px;
+  display: block;
+  margin-left: 210px;
+}
